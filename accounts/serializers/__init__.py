@@ -1,0 +1,6 @@
+from accounts.serializers.CustomAuthToken import CustomAuthTokenSerializer
+from accounts.serializers.ChangePassword import PasswordChangeSerializer
+from accounts.serializers.CustomObtainPairToken import CustomObtainPairSerializer
+from accounts.serializers.Profile import ProfileSerializer
+from accounts.serializers.Registeration import RegisterationSerializer
+from accounts.serializers.ResendEmail import ResendEmailSerializer
