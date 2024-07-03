@@ -1,5 +1,5 @@
 from rest_framework.generics import GenericAPIView
-from accounts.serializers import PasswordChangeSerializer
+from accounts.api.V1.serializers import PasswordChangeSerializer
 from rest_framework.response import Response
 from rest_framework import status
 from rest_framework.permissions import IsAuthenticated

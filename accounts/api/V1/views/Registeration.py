@@ -1,5 +1,5 @@
 from rest_framework.generics import GenericAPIView
-from accounts.serializers import RegisterationSerializer
+from accounts.api.V1.serializers import RegisterationSerializer
 from accounts.models import CustomUser
 from rest_framework.response import Response
 from rest_framework import status

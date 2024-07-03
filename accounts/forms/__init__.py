@@ -1,0 +1,3 @@
+from accounts.forms.EditProfile import EditProfileForm
+from accounts.forms.Authentication import AuthenticationForm
+from accounts.forms.CustomUserCreation import CustomUserCreationForm

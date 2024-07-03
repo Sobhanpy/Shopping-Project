@@ -1,5 +1,4 @@
-
-from accounts.serializers import CustomAuthTokenSerializer
+from accounts.api.V1.serializers import CustomAuthTokenSerializer
 from rest_framework.response import Response
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token

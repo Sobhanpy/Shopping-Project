@@ -1,7 +1,7 @@
 from rest_framework.generics import GenericAPIView
-from accounts.serializers import ResendEmailSerializer
+from accounts.api.V1.serializers import ResendEmailSerializer
 from rest_framework.response import Response
-from accounts.views import SendEmailWithThreading
+from accounts.api.V1.views import SendEmailWithThreading
 from mail_templated import EmailMessage
 from rest_framework_simplejwt.tokens import RefreshToken
 
